@@ -15,6 +15,7 @@ fun_list3 = [lambda e: e+e for i in range(5)]
 fun_list4 = [lambda e, iv=i: e+iv for i in range(5)]
 
 i=55
+#list1 through list4
 print([f(10) for f in fun_list1])
 print([f(10) for f in fun_list2])
 print([f(10) for f in fun_list3])
